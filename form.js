@@ -3,7 +3,7 @@ document.getElementById('post_submit').addEventListener('click', function(event)
     var payload = {inputEmail:null, inputMessage:null};
     payload.inputEmail = document.getElementById('inputEmail').value;
     payload.inputMessage = document.getElementById('inputMessage').value;
-    req.open('POST', 'http://httpbin.org/post', true);
+    req.open('POST', 'https://httpbin.org/post', true);
     req.setRequestHeader('Content-Type', 'application/json');
     req.addEventListener('load',function(){
         if(req.status >= 200 && req.status < 400){
