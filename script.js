@@ -5,8 +5,8 @@ $('#myCarousel').bind('slid.bs.carousel', function (e) {
         document.getElementById("tarantula").style.color = "magenta"
     }
     else if (index === 1) {
-        document.body.style.backgroundColor = "#228232"
-        document.getElementById("tarantula").style.color = "#228232"
+        document.body.style.backgroundColor = "#177527"
+        document.getElementById("tarantula").style.color = "#177527"
     }
     else if (index === 2) {
         document.body.style.backgroundColor = "blue"
